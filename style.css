@@ -1,0 +1,43 @@
+*{
+ margin:0;
+ padding:0;
+ font-family:sans-serif;
+}
+ body{
+ background:#0080AE;
+ text-align:center;
+}
+
+img{
+ width:auto;
+ max-width:100%;
+}
+
+h1{
+ color: #94D0C9;
+  text-align: center;
+  font-size: 30px;
+  text-shadow:1px 1px 0px #34B496 ;
+  margin:10px 0;
+}
+
+p{
+    color: #00B2C4;
+}
+
+.Image img{
+ text-align:center;
+ width:55%;
+ padding: 5px;
+ background:#94D0C9;
+}
+
+.thumbnails{
+ width:90%;
+ margin: auto;
+}
+
+.thumbnails img{
+ width:10%;
+}
+s

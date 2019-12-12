@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>夏休みの思い出</title>
+    <script  src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br>
+    <h1>夏休みの思い出</h1>
+    <b><p>8月10日　ROCK IN JAPAN FES.2019</p></b>
+    <br>
+    <div class="Image">
+        <img src="img/IMG_6430.JPG" alt="海１">
+    </div>
+    <br>
+    <div class="thumbnails">
+        <img src="img/IMG_6430.JPG" alt="海１">
+        <img src="img/IMG_6431.JPG" alt="海2">
+        <img src="img/IMG_6434.JPG"alt="海3">
+        <img src="img/IMG_6435.JPG"alt="海3">
+        <img src="img/IMG_6436.JPG"alt="海3">
+        <img src="img/IMG_6437.JPG"alt="海3">
+        <img src="img/IMG_6438.JPG"alt="海3">
+        <img src="img/IMG_6439.JPG"alt="海3">
+        
+    </div>
+    
+    <script>
+        $(function(){
+            $('.thumbnails img').click(function(){
+                var $thisImg = $(this).attr('src');
+                var $thisAlt = $(this).attr('alt');
+                $('.Image img').attr({src:$thisImg,alt:$thisAlt});
+            });
+        });
+    
+    
+    
+    
+    
+    </script>
+    
+</body>
+</html>
