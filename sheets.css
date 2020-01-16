@@ -1,0 +1,30 @@
+body{
+ background:#0080AE;
+ text-align:center;
+}
+
+h1{
+ color: #94D0C9;
+  text-align: center;
+  font-size: 30px;
+  text-shadow:1px 1px 0px #34B496 ;
+  margin:10px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#mybtn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contents{
+    
+}
+
+#content {
+
+    background: #FFFDF6;
+    width: 77%;
+	}
